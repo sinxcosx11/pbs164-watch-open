@@ -1,0 +1,50 @@
+# Decompiled APK and reverse-engineering artifacts
+*.apk
+*.dex
+decompiled_ble/
+decompiled_manifest/
+tools/
+dials/
+*.bat
+*.py
+index.html
+
+# Native proprietary binaries
+pbs164_pulse/android/app/src/main/jniLibs/
+pbs164_pulse/android/app/src/main/java/com/bluetrum/
+
+# Backup and temp files
+*.bak
+
+# Template assets (keep only base template)
+pbs164_pulse/assets/templates/*.bin
+!pbs164_pulse/assets/templates/tmpl_base.bin
+
+# Flutter build artifacts
+pbs164_pulse/build/
+pbs164_pulse/.dart_tool/
+pbs164_pulse/.flutter-plugins
+pbs164_pulse/.flutter-plugins-dependencies
+pbs164_pulse/.packages
+pbs164_pulse/.pub-cache/
+pbs164_pulse/.pub/
+
+# Android build artifacts
+pbs164_pulse/android/.gradle/
+pbs164_pulse/android/local.properties
+pbs164_pulse/android/app/build/
+
+# Python & System
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE & Editor
+.idea/
+.vscode/
+*.iml
